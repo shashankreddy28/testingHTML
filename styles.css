@@ -1,0 +1,97 @@
+body{
+    /* background-image: url('images/coding.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(0.9);
+    color: antiquewhite; */
+    /* potential wallpaper on top */
+    background-color:tan ;
+    font-family: monospace;
+    font-size: large; 
+}
+header{
+    text-align: center;
+    padding: 20px; /* this makes sure that the content box has 20 px in all directions so that they arent exactly near soemthing*/
+    background-color: #333; /* Dark background color*/
+    color: white; /* white text color*/
+    position: relative; /* added relative positioning*/
+}
+.dpImage{
+    width: 140px;
+    height: 140px; /* Added a fixed height for consistency */
+    border-radius: 70px;
+
+    margin-right: 10px; 
+    position: absolute; /* Set position to absolute */
+    left: 33px; /* Adjust left position as needed */
+    top: 50%; /* Align to the vertical center */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+}
+h1 {
+color: peachpuff;
+font-family:'Times New Roman', Times, serif;
+}
+
+.UserName{
+    font-size: 150%;
+    font-weight: bold;
+    font-family: monospace;
+    /* margin-bottom: 0%; */
+}
+
+
+.bio{
+    font-family: monospace;
+    /* float: inline-start; */
+}
+nav {
+    margin-top: 10px;
+}
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+.aboutMeText em {
+    color: dimgray;
+}
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #673ab7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.socialIcon {
+    width: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+.codingImage{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+}
